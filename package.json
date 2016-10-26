@@ -1,0 +1,29 @@
+{
+  "name": "jw-telegraf-wit",
+  "version": "1.0.0",
+  "description": "Johnny Walker Telegraf/Wit implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "test" : "test",
+    "start":"node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisyusuf/telegraf-wit.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Yusuf Kibaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisyusuf/telegraf-wit/issues"
+  },
+  "homepage": "https://github.com/thisisyusuf/telegraf-wit#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "telegraf": "^3.3.0",
+    "telegraf-wit": "^2.1.0"
+  },
+  "devDependencies": {}
+}
